@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_margin_min">8dp</dimen>
+    <dimen name="common_margin_default">16dp</dimen>
+    <dimen name="common_height_default">32dp</dimen>
+    <dimen name="common_image_default">50dp</dimen>
+    <dimen name="common_image_middle">70dp</dimen>
+    <dimen name="common_size_default">16dp</dimen>
+    <dimen name="common_size_big2">72dp</dimen>
+    <dimen name="common_size_big">42dp</dimen>
+    <dimen name="common_size_small">8dp</dimen>
+    <dimen name="common_size_middle">24dp</dimen>
+</resources>

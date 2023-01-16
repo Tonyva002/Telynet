@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Telynet</string>
+    <string name="detail_title_message">Client</string>
+    <string name="image_message">Image</string>
+    <string name="lista_clientes">Telynet Client List</string>
+    <string name="phone_message">Phone</string>
+    <string name="name_message">Name</string>
+    <string name="phone_message2">562-777-5612</string>
+    <string name="email_message">Email</string>
+    <string name="email_message2">ana@hotmail.com</string>
+    <string name="user_image_message">User image</string>
+    <string name="codigo_message">codigo</string>
+    <string name="favoritos_message">Favoritos</string>
+</resources>

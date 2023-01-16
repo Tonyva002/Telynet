@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "656906367564",
+    "project_id": "telynet-9dd25",
+    "storage_bucket": "telynet-9dd25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656906367564:android:233f60db26f3b407debae9",
+        "android_client_info": {
+          "package_name": "com.example.telynet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656906367564-7uhgq458blerpkplm1rbubtk8obn2jdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS4Zxj66IihJCr7_66YJVsL7oxZpQcxMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656906367564-7uhgq458blerpkplm1rbubtk8obn2jdh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
