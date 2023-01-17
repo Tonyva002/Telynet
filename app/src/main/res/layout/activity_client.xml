@@ -41,8 +41,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/common_size_default"
-        android:layout_marginStart="@dimen/common_size_small"
-        android:layout_marginEnd="@dimen/common_size_small"
+        android:layout_marginStart="@dimen/common_size_min"
+        android:layout_marginEnd="@dimen/common_size_min"
         android:text="@string/codigo_message"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,7 +67,7 @@
         android:id="@+id/tvPhone2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/common_size_small"
+        android:layout_marginTop="@dimen/common_size_min"
         android:text="@string/phone_message2"
         app:layout_constraintStart_toStartOf="@+id/tvPhone"
         app:layout_constraintTop_toBottomOf="@+id/tvPhone" />
@@ -87,7 +87,7 @@
         android:id="@+id/tvEmail2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/common_size_small"
+        android:layout_marginTop="@dimen/common_size_min"
         android:text="@string/email_message2"
         app:layout_constraintStart_toStartOf="@+id/tvEmail"
         app:layout_constraintTop_toBottomOf="@+id/tvEmail" />
@@ -97,7 +97,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/common_size_big"
-        android:layout_marginEnd="@dimen/common_size_default"
         android:text="@string/favoritos_message"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintStart_toStartOf="@+id/tvEmail2"
@@ -107,10 +106,22 @@
         android:id="@+id/tvFavorite2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/common_size_small"
+        android:layout_marginTop="@dimen/common_size_min"
         android:text="@string/favoritos_message"
         app:layout_constraintStart_toStartOf="@+id/tvFavorite"
         app:layout_constraintTop_toBottomOf="@+id/tvFavorite" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCall"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="@dimen/common_size_big2"
+        android:layout_marginHorizontal="@dimen/common_size_min"
+        android:text="@string/llamar_cliente_message"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
