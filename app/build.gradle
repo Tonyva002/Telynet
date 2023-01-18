@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.example.telynet'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.telynet"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -31,7 +31,7 @@ android {
 
 dependencies {
 
-    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'androidx.appcompat:appcompat:1.6.0'
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'com.github.bumptech.glide:glide:4.14.2'
     implementation platform('com.google.firebase:firebase-bom:30.4.1')
